@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body,
+section,
+article,
+img,
+p,
+h3,
+h4 {
+    margin: 0;
+}
+
+.figtree-mudium {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.figtree-exbold {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+body {
+    background-color: #F4D04E;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    background-color: #FFFFFF;
+    width: fit-content;
+    height: fit-content;
+    max-width: 384px;
+    border: 1px solid #111111;
+    border-radius: 20px;
+    box-shadow: 8px 8px 0px #000000;
+    padding: 24px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    row-gap: 24px;
+}
+
+h3 {
+    font-size: 14px;
+    line-height: 150%;
+    color: #111111;
+    background: #F4D04E;
+    border-radius: 4px;
+    width: 82px;
+    height: 29px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* padding: 4px 12px; */
+}
+
+h4 {
+    font-size: 24px;
+    line-height: 150%;
+    color: #111111;
+    transition: color 500ms ease-in-out;
+
+    &:hover,
+    &:active,
+    &:focus {
+        color: #F4D04E;
+    }
+}
+
+.time {
+    font-size: 14px;
+    line-height: 150%;
+    color: #111111;
+
+}
+
+.description {
+    font-size: 16px;
+    line-height: 150%;
+    color: #6B6B6B;
+
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    row-gap: 12px;
+}
+
+
+
+.bg {
+    background-image: url(../assets/images/illustration-article.svg);
+    height: 200px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.footer {
+    p {
+        font-size: 14px;
+        line-height: 150%;
+        color: #111111;
+    }
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    column-gap: 12px;
+}
